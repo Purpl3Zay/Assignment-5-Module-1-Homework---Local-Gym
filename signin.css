@@ -128,6 +128,12 @@ a:hover {
     margin-left: 20px;
     border-radius: 5px;
     border: 1px solid rgba(110, 110, 110, 0.363);
+    transition: all .2s ease-in-out; 
+}
+
+.continue:active {
+    transform: scale(.99); 
+    background-color: rgb(92, 34, 7);
 }
 
 .socials:hover {
